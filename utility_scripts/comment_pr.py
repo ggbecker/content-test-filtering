@@ -4,7 +4,7 @@ import requests
 import json
 import sys
 
-REPO_URL = "https://api.github.com/repos/ComplianceAsCode/content/issues/"
+REPO_URL = "https://api.github.com/repos/ggbecker/content/issues/"
 USER = "openscap-ci"
 COMMENT_STRING_1 = "Changes identified:"
 COMMENT_STRING_2 = "Recommended tests to execute:"

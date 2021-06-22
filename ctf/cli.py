@@ -14,7 +14,7 @@ def parse_args():
                                      "If not provided, the repository will be "
                                      "cloned into /tmp folder."))
     common_parser.add_argument("--remote_repo", dest="remote_repo",
-                               default="https://github.com/ComplianceAsCode/content",
+                               default="https://github.com/ggbecker/content",
                                help=("Remote repository for pulling, updating "
                                      "and finding branches (Pull requests). Default "
                                      "is https://github.com/ComplianceAsCode/content."))

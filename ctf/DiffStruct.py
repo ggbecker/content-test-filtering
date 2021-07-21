@@ -28,7 +28,7 @@ class DiffStruct:
     def get_changed_rules_with_products(self):
         for product in self.changed_rules:
             for rule in self.changed_rules[product]:
-                yield product, rule
+                yield "rhel8", rule
 
     def get_changed_profiles_with_products(self):
         for product in self.changed_profiles:
